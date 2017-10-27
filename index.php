@@ -5,20 +5,10 @@
     <title>User Rank</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <style>
-     .jumbotron{    
-      border-radius: 0px;
-      text-align: center;
-       }
-    </style>
-
-    </script>
- 
   </head>
 
   <body>
-    <div class="jumbotron">
+    <div class="jumbotron" style="border-radius: 0px; text-align: center;">
     
       <h4 class="display-4">English Wikipedia UserRank </h4><hr/>
      
