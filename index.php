@@ -5,6 +5,13 @@
     <title>User Rank</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Roboto' rel='stylesheet' type='text/css'>
+     <style>
+      .jumbotron{    
+       border-radius: 0px;
+       text-align: center;
+        }
+     </style>
   </head>
 
   <body>
