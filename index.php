@@ -43,7 +43,7 @@ class wikiuserrank
     {
     $ts_pw = posix_getpwuid(posix_getuid());
     $ts_mycnf = parse_ini_file($ts_pw['dir'] . "/replica.my.cnf");
-    $conn = mysqli('enwiki.labsdb', $ts_mycnf['user'], $ts_mycnf['password'], 'enwiki_p');
+    $conn = new mysqli('enwiki.labsdb', $ts_mycnf['user'], $ts_mycnf['password'], 'enwiki_p');
     if ($conn->connect_error)
       {
       die("Connection failed: " . $conn->connect_error);
