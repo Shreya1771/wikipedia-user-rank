@@ -5,7 +5,10 @@
     <title>User Rank</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "index.css" />
      <style>
       .jumbotron{    
        border-radius: 0px;
